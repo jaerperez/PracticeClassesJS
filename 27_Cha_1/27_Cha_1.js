@@ -1,6 +1,6 @@
 let btn = document.getElementById("btn");
 let text=document.getElementById("text");
-btn.addEventListener('click',()=>{
+btn.addEventListener('click',(event)=>{
     if(text.value==""){
         text.style.background='#e22b2b';
         alert("El input está vacío");
