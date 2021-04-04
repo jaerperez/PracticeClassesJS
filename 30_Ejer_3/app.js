@@ -26,7 +26,7 @@ const obtenerUsuario = id => {
             reject('El usuario no existe! ');
         }
     });
-};
+}
 
 const obtenerTelefono = id => {
     return new Promise((resolve, reject) => {
@@ -36,7 +36,7 @@ const obtenerTelefono = id => {
             reject('El telefono no existe! ');
         }
     });
-};
+}
 
 obtenerUsuario(3)
     .then(res => {
